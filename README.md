@@ -118,4 +118,4 @@ This piece of software comes with ABSOLUTELY NO WARRANTY, to the extent permitte
 
 Note
 ====
-Most files have 2 years mentioned, the years are the year, put in production, and the year published here on github or otherwise.
+Most files have 2 years mentioned, the years are the year, put in production, and the year published here on github or otherwise. Most basis for these files were written 1999 through 2004, later some of these files have resurfaced for newer projects and their "lowest common denominators" have been released.
