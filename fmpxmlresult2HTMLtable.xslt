@@ -43,6 +43,7 @@
 			<xsl:attribute name="ng-repeat">
 				<xsl:text>t in </xsl:text>
 				<xsl:value-of select="$layoutName"/>
+				<xsl:text> | async</xsl:text>
 			</xsl:attribute>
 			<xsl:for-each select="fmp:METADATA/fmp:FIELD">
 				<td>
