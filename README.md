@@ -126,6 +126,9 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to postgres'
 ## fmpxmlresult2CoreDatacontent.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to CoreData content format. 
 
+## fmpxmlresult2LaTeX.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to LaTeX' TeX-format for the purpose of PDF production.
+
 License
 =======
 
