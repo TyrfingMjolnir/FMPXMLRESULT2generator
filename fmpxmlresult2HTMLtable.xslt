@@ -7,7 +7,7 @@
 		<html>
 			<head>
 				<title>
-					<xsl:text>Schema/table: </xsl:text><xsl:value-of select="$databaseName"/><xsl:text>.</xsl:text><xsl:value-of select="$layoutName"/>
+					<xsl:text>Schema.table: </xsl:text><xsl:value-of select="$databaseName"/><xsl:text>.</xsl:text><xsl:value-of select="$layoutName"/>
 				</title>
 			</head>
 			<body>
