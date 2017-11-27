@@ -1,11 +1,6 @@
-# fmpxmlresult2HTMLtable.xslt
-This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML table, no records required. 
+# FMPXMLRESULT2generator
 
-# fmpxmlresult2HTMLform.xslt
-This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML form, no records required.
-
-# fmpxmlresult2nodeexpress.xslt
-This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records required. 
+FMPXMLRESULT2generator is a project to convert data quickly from FileMaker and to keep the attribute/entity/column/table/field names
 
 ## General note – stylesheet regardless
 
@@ -20,7 +15,7 @@ Note adding a layout name in the FMPXMLRESULT export; before translating using t
 
 <img alt="[x] Format Using Layout will provoke the export to populate the LAYOUT-attribute" src="FormatUsingLayout.png" width="100%" max-width=1008>
 
-How to use this file in terminal
+How to use these files in terminal
 ---
 ```bash
 $ xsltproc fmpxmlresult2nodeexpress.xslt test.xml > ~/projectname/route/view.js
@@ -116,10 +111,19 @@ module.exports = routernode;
 
 This file loads every field/column as a potential parameter in the template, there's most likely no purpose to use all fields as parameters, however it must be easier to delete those you do not need than to risk a typo. After all removing the source of human failure in the naming and typo department is the main goal of these scripts.
 
+# fmpxmlresult2HTMLtable.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML table, no records required. 
+
+# fmpxmlresult2HTMLform.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML form, no records required.
+
+# fmpxmlresult2nodeexpress.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records required. 
+
 License
 =======
 
-Copyright (c) 2015 Gjermund Gusland Thorsen, released under the MIT License.
+Copyright (c) 1999 - present Gjermund Gusland Thorsen, released under the MIT License.
 
 All rights deserved.
 
