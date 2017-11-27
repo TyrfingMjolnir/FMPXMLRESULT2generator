@@ -1,8 +1,17 @@
 # fmpxmlresult2HTMLtable.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML table, no records required.
+
+# fmpxmlresult2HTMLform.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML form, no records required.
+
+# fmpxmlresult2nodeexpress.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records required. 
+
+## general note
+
+No recrods required; however exporting a random record may give you extra data to work with.
 
 
-# fmpxmlresult2nodeexpress
-This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records involved; however exporting a random record may give you extra data to work with.
 
 This is a PoC( Proof of Concept )
 
