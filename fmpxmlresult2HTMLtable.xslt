@@ -7,13 +7,13 @@
 		<html>
 			<head>
 				<title>
-					<xsl:text>Schema.table: </xsl:text><xsl:value-of select="$databaseName"/><xsl:text>.</xsl:text><xsl:value-of select="$layoutName"/>
+					<xsl:text>Schema/table: </xsl:text><xsl:value-of select="$databaseName"/><xsl:text>.</xsl:text><xsl:value-of select="$layoutName"/>
 				</title>
 			</head>
 			<body>
 				<table border="0" cellPadding="3" cellSpacing="0">
 					<xsl:call-template name="header"/>
-					<xsl:call-template name="body"/>
+					<xsl:call-template name="mainbody"/>
 					<xsl:call-template name="footer"/>
 				</table>
 			</body>
@@ -32,16 +32,25 @@
 		</tr>
 		<tr>
 			<xsl:for-each select="fmp:METADATA/fmp:FIELD">
-				<th align="middle">
+				<th>
 					<xsl:value-of select="@NAME"/>
 				</th>
 			</xsl:for-each>
 		</tr>
 	</xsl:template>
-	<xsl:template name="body">
+	<xsl:template name="mainbody">
 		<tr>
 			<xsl:for-each select="fmp:METADATA/fmp:FIELD">
-				<td align="middle">
+				<td>
+					<xsl:attribute name="align">
+							<xsl:value-of select="concat(
+			              substring( 'left',      1 div boolean( @TYPE  = 'TEXT'      ) ),
+			              substring( 'middle',      1 div boolean( @TYPE  = 'CONTAINER' ) ),
+			              substring( 'middle',      1 div boolean( @TYPE  = 'DATE'      ) ),
+			              substring( 'middle', 1 div boolean( @TYPE  = 'TIMESTAMP' ) ),
+			              substring( 'right',   1 div boolean( @TYPE  = 'NUMBER'    ) )
+)"/>						
+					</xsl:attribute>
 					<xsl:text>{{</xsl:text><xsl:value-of select="$layoutName"/><xsl:text>.</xsl:text><xsl:value-of select="@NAME"/><xsl:text>}}</xsl:text>
 				</td>
 			</xsl:for-each>
@@ -72,17 +81,13 @@
 ===============================================================
 Copyright © 2008 Gjermund Gusland Thorsen
 All rights deserved.
-
 Redistribution and use in any form, with or without modification,
 are permitted provided that the following conditions:
-
 * Redistributions of source code must retain the above copyright
   notice, this list of conditions and the following disclaimer.
-
 * Redistributions in any form must reproduce the above copyright
   notice, this list of conditions and the following disclaimer in 
   the documentation and/or other materials provided.
-
 This piece comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
     
