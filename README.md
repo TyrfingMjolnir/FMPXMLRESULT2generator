@@ -123,6 +123,9 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON rout
 ## fmpxmlresult2pgCOPY.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to postgres' COPY-format with records. 
 
+## fmpxmlresult2CoreDatacontent.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to CoreData content format. 
+
 License
 =======
 
