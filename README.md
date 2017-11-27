@@ -1,5 +1,5 @@
 # fmpxmlresult2nodeexpress
-This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records involved.
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records involved; however exporting a random record may give you extra features.
 
 This is a PoC( Proof of Concept )
 
