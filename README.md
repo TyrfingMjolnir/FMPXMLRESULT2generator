@@ -1,5 +1,5 @@
 # fmpxmlresult2HTMLtable.xslt
-This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML table, no records required.
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML table, no records required. 
 
 # fmpxmlresult2HTMLform.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML form, no records required.
@@ -9,11 +9,12 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON rout
 
 ## general note
 
+None of these are candidates for a beauty contest; all of them however are made with one thought in mind, FileMaker as the single source of truth, a high level of conformity across your solution, natively on all accounts. The intended use is for these stylesheets to serve as a quick starting point for generating a native interface with FileMaker as the single source of truth and high conformity across your solution.
+
 No recrods required; however exporting a random record may give you extra data to work with.
 
 
-
-This is a PoC( Proof of Concept )
+### This is a PoC( Proof of Concept )
 
 Note adding a layout name in the FMPXMLRESULT export; before translating using this XSLT, will make the output more complete.
 
