@@ -120,6 +120,9 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML form
 # fmpxmlresult2nodeexpress.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records required. 
 
+# fmpxmlresult2pgCOPY.xslt
+This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to postgres' COPY-format with records. 
+
 License
 =======
 
