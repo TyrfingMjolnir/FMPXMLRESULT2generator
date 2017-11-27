@@ -39,7 +39,11 @@
 		</tr>
 	</xsl:template>
 	<xsl:template name="mainbody">
-		<tr>
+		<tr ="x in names">
+			<xsl:attribute name="ng-repeat">
+				<xsl:text>t in </xsl:text>
+				<xsl:value-of select="$layoutName"/>
+			</xsl:attribute>
 			<xsl:for-each select="fmp:METADATA/fmp:FIELD">
 				<td>
 					<xsl:attribute name="align">
@@ -51,7 +55,7 @@
 			              substring( 'right',   1 div boolean( @TYPE  = 'NUMBER'    ) )
 )"/>						
 					</xsl:attribute>
-					<xsl:text>{{</xsl:text><xsl:value-of select="$layoutName"/><xsl:text>.</xsl:text><xsl:value-of select="@NAME"/><xsl:text>}}</xsl:text>
+					<xsl:text>{{</xsl:text><xsl:text>t.</xsl:text><xsl:value-of select="@NAME"/><xsl:text>}}</xsl:text>
 				</td>
 			</xsl:for-each>
 		</tr>
