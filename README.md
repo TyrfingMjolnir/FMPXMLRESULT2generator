@@ -7,7 +7,7 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to HTML form
 # fmpxmlresult2nodeexpress.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to JSON route node for express, no records required. 
 
-## general note
+## General note – stylesheet regardless
 
 None of these are candidates for a beauty contest; all of them however are made with one thought in mind, FileMaker as the single source of truth, a high level of conformity across your solution, natively on all accounts. The intended use is for these stylesheets to serve as a quick starting point for generating a native interface with FileMaker as the single source of truth and high conformity across your solution.
 
