@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Written by Gjermund G Thorsen 2017, all rights deserved
-  for the purpose of generating an HTML table component from FMPXMLRESULT
+  for the purpose of generating an HTML form component from FMPXMLRESULT
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fmp="http://www.filemaker.com/fmpxmlresult" version="1.0" exclude-result-prefixes="fmp">
 	<xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
