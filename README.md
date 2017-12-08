@@ -6,10 +6,13 @@ FMPXMLRESULT2generator is a project to convert data quickly from FileMaker and t
 
 None of these are candidates for a beauty contest; all of them however are made with one thought in mind, FileMaker as the single source of truth, a high level of conformity across your solution, natively on all accounts. The intended use is for these stylesheets to serve as a quick starting point for generating a native interface with FileMaker as the single source of truth and high conformity across your solution.
 
-No recrods required; however exporting a random record may give you extra data to work with.
+No records required; however exporting a random record may give you extra data to work with.
 
+### CRUD is often confusing
 
-### This is a PoC( Proof of Concept )
+as CRUD only contains 4 letters; here is a good read on the difference between the 2 Us in CRUD; namely PATCH and PUT: https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples#34400076 and https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329
+
+## This is a PoC( Proof of Concept )
 
 Note adding a layout name in the FMPXMLRESULT export; before translating using this XSLT, will make the output more complete.
 
@@ -128,10 +131,6 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to CoreData 
 
 ## fmpxmlresult2LaTeX.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to LaTeX' TeX-format for the purpose of PDF production.
-
-# CRUD is often confusing
-
-as CRUD only contains 4 letters; here is a good read on the difference between the 2 Us in CRUD; namely PATCH and PUT: https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples#34400076 and https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329
 
 License
 =======
