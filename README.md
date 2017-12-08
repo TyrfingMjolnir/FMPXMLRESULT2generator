@@ -129,6 +129,10 @@ This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to CoreData 
 ## fmpxmlresult2LaTeX.xslt
 This is an XSLT stylesheet to convert from FileMaker's fmpxmlresult to LaTeX' TeX-format for the purpose of PDF production.
 
+# CRUD is often confusing
+
+as CRUD only includes 4 letters; here is a good read on the difference between the 2 Us in CRUD; namely PATCH and PUT: https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples#34400076 and https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329
+
 License
 =======
 
