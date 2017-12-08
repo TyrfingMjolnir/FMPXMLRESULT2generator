@@ -8,9 +8,9 @@ None of these are candidates for a beauty contest; all of them however are made 
 
 No records required; however exporting a random record may give you extra data to work with.
 
-### CRUD is often confusing
+### CRUD is confusing to many
 
-as CRUD only contains 4 letters; here is a good read on the difference between the 2 Us in CRUD; namely PATCH and PUT: https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples#34400076 and https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329
+CRUD is confusing to many as this contains 4 letters only; here is a good read on the difference between the 2 Us in CRUD; namely PATCH and PUT: https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples#34400076 and https://stackoverflow.com/questions/28459418/rest-api-put-vs-patch-with-real-life-examples/39338329#39338329
 
 ## This is a PoC( Proof of Concept )
 
